@@ -1,0 +1,19 @@
+body {
+    background-color: darkgray;
+}
+
+input:invalid {
+    border: 1px solid red;
+}
+
+input:invalid:required {
+    box-shadow: 0px 1px 18px 4px rgba(253,6,6,0.28);
+    -webkit-box-shadow: 0px 1px 18px 4px rgba(253,6,6,0.28);
+    -moz-box-shadow: 0px 1px 18px 4px rgba(253,6,6,0.28);
+}
+
+
+input:valid {
+    border: 2px solid green;
+}
+
